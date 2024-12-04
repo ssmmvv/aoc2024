@@ -15,12 +15,13 @@ func main() {
 	switch os.Args[1] {
 	case "1":
 		problems.Problem1(os.Args[2])
-		break
 	case "2":
 		problems.Problem2(os.Args[2])
-		break
 	case "3":
 		problems.Problem3(os.Args[2])
-		break
+	case "4":
+		problems.Problem4(os.Args[2])
+	default:
+		fmt.Printf("Problem %s not recognized\n", os.Args[1])
 	}
 }
