@@ -25,6 +25,10 @@ func main() {
 		problems.Problem5(os.Args[2])
 	case "6":
 		problems.Problem6(os.Args[2])
+	case "7":
+		problems.Problem7(os.Args[2])
+	case "8":
+		problems.Problem8(os.Args[2])
 	default:
 		fmt.Printf("Problem %s not recognized\n", os.Args[1])
 	}
