@@ -1,4 +1,4 @@
-package problems
+package problem3
 
 import (
 	"bufio"
